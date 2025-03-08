@@ -5,7 +5,7 @@ const Input = React.forwardRef( ({
     type="text",
     className="",
     ...props
-    }) => {
+    } , ref) => {
         const id = useId()
         return (
             <div className="w-full">
@@ -22,6 +22,6 @@ const Input = React.forwardRef( ({
                 />
             </div>
         )
-} , ref )
+})
 
 export default Input

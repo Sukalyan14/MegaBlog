@@ -9,5 +9,8 @@ import Select from './Select.jsx'
 import RTE from "./RTE.jsx";
 import Login from './Login.jsx'
 import Signup from './Signup.jsx'
+import PostForm from './postForm/PostForm.jsx'
+import PostCard from "./PostCard.jsx";
+import Protected from './AuthLayout'
 
-export { Header , Footer , Container , Logo , LogoutButton , Input , Button , Select }
+export { Header , Footer , Container , Logo , LogoutButton , Input , Button , Select , RTE , Login , Signup , PostForm , PostCard  , Protected}
